@@ -1,0 +1,26 @@
+window {
+margin: 8px;
+border: 2px solid #3A587A;
+padding: 10px;
+border-radius: 10px;
+}
+
+#input {
+margin: 5px;
+}
+
+#inner-box {
+margin: 5px;
+}
+
+#outer-box {
+margin: 15px;
+}
+
+#scroll {
+margin: 5px;
+}
+
+#text {
+margin: 5px;
+}
