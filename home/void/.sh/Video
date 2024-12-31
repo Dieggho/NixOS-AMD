@@ -1,0 +1,2 @@
+#!/usr/bin/env dash
+ffplay -loop 999 "$@"
