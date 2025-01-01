@@ -79,6 +79,10 @@
     enable32Bit = true;
   };
 
+  hardware.graphics.extraPackages = with pkgs; [
+  amdvlk
+  ];
+
   hardware.amdgpu.initrd.enable = true;
 
   hardware.amdgpu.amdvlk.settings = {
@@ -168,6 +172,7 @@
   swww
   fastfetch
   gsimplecal
+  lm_sensors
   greetd.gtkgreet
   wofi
   foot
